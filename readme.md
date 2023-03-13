@@ -3,7 +3,7 @@
 Icons - https://heroicons.com/
 ##
 
-If class doesn't exist we can in `tailwind.config.js` add new classes to **extend** :
+If class doesn't exist we can add new classes to **extend** in `tailwind.config.js`  :
 
 ```
 extend: {
@@ -25,6 +25,18 @@ And add it it to HTML murkup:
 <h2 class="h2">Hello man</h2>
 
 ```
+
+##
+If there are too many classes in row for same elements, we can create main class in css, and put there that line, like this: 
+
+```
+.h2 {
+    @apply underline mt-6 italic text-cyan-600;
+}
+```
+
+We need to use there *@apply*
+
 ##
 To get all **configuration** in `tailwind.config.js`, put this in terminal
 
