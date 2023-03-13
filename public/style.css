@@ -517,6 +517,23 @@ video {
   margin-top: 1.5rem;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.text-cyan-600 {
+  --tw-text-opacity: 1;
+  color: rgb(8 145 178 / var(--tw-text-opacity));
+}
+
 .underline {
+  text-decoration-line: underline;
+}
+
+.h2 {
+  margin-top: 1.5rem;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(8 145 178 / var(--tw-text-opacity));
   text-decoration-line: underline;
 }

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h2 {
+    @apply underline mt-6 italic text-cyan-600;
+}
