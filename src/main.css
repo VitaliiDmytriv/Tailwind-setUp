@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* make main class from small ones */
 .h2 {
     @apply underline mt-6 italic text-cyan-600;
 }
